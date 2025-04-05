@@ -1,19 +1,22 @@
-# Bytecode and Python cache
+# macOS
+.DS_Store
+
+# Python
 __pycache__/
 *.py[cod]
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Virtual environments
+*.so
+*.egg-info/
 venv/
-.venv/
-env/
-ENV/
+.env
 
-# Data files and OS clutter
+# Node.js
+node_modules/
+
+# System
+*.log
+
+__pycache__/
+.ipynb_checkpoints/
+.venv/
 data/
 .DS_Store
-*.hdf5
-*.csv
-*.npz
